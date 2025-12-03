@@ -19,7 +19,7 @@ fun main() {
         var currentLength = targetLength
         var series = bank
 
-        for (number in 1..targetLength) {
+        for (_number in 1..targetLength) {
             for (i in 9 downTo 1) {
                 val index = series.indexOf("$i")
 
